@@ -32,3 +32,5 @@ sxit-Java_web/
 The code, documents, and other relevant resources in this repository are solely for learning and reference purposes. Any form of plagiarism is strictly prohibited. When using these contents, you must ensure that your work is original and that you have a thorough understanding of the code and ideas you use. Whether it is in course assignments, laboratory reports, or other academic tasks, directly copying and pasting the code from this repository without making appropriate modifications and annotations is considered plagiarism.
 
 <strong>I hope that in the process of learning JavaWeb courses, everyone can make full use of the resources in this repository while maintaining good academic integrity and achieving excellent learning outcomes.</strong>
+<hr>
+Recommended project creation method (VScode):<a href = "https://blog.csdn.net/qq_56051596/article/details/126014977">Totorial</a>

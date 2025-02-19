@@ -3,29 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script type="text/javascript">
-       function testMethod(){
-        var name_1 = document.forms[0].nameTest;
-        alert("name_1 = " + name_1.value);
-        var name_2 = document.forms["myForm"].nameTest;
-        alert("name_2 = " + name_2.value);
-        var name_3 = document.forms["myForm"].nameTest;
-        alert("name_3 = " + name_3.value);
-        var name_4 = document.myForm.elements["nameTest"];
-        alert("name_4 = " + name_4.value);
-        var name_5 = document.getElementsByTagName("nameTest");
-        alert("name_2 = " + name_5[0].value);
-        var id_1 = document.getElementById("idTest");
-        alter("id_1 = " + id_1.value);
-       }
-    </script>
+    <title>Insert title here</title>
 </head>
 <body>
-    <form name = "myForm">
-        通过name获取:<input type = "text" name = "nameTest" value="firstTextValues"><br>
-        <br>通过id获取:<input type="text" id="idTest" value="secondTextValue">
-        <br><input type="button" value="Click Me" onclick="testMethod()">
-    </form>
+    <p align = "center">《赠汪伦》<br><font size = "2">李白</font><br>
+    李白乘舟将欲行,<br>
+    忽闻岸上踏歌声.<br>
+    桃花潭水深千尺，<br>
+    不及汪伦赠我情<br></p>
+    <marquee bgclor = "blue" behavior = "alternate">
+        <font color = "white">大家好,我在学习《唐诗三百首》</font>
+    </marquee>
+    
 </body>
 </html>
